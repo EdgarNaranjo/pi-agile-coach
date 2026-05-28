@@ -18,7 +18,7 @@ Format: [Semantic Versioning](https://semver.org) — `MAJOR.MINOR.PATCH`
 - **Engram memory** — persistent decision storage in `.sdd/engram.json` across sessions
 - **Generic skill integration protocol** — any external skill can register for any phase
 - **Superpowers integration** — brainstorming, writing-plans, subagent-driven-development, verification-before-completion
-- **Odoo integration** — delegates technical tasks to `workflow-odoo19` when detected
+- **Odoo integration** — delegates technical tasks to `workflow-odoo` when detected
 - **Definition of Ready (DoR)** — gate condition before pulling stories into a sprint
 - **Risk Register** — live risk tracking updated every sprint
 - **Burndown tracking** — mid-sprint progress with alerts (on track / at risk / sprint in danger)
