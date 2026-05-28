@@ -23,9 +23,9 @@
   "license": "LGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EdgarNaranjo/agent-skills.git"
+    "url": "git+https://github.com/EdgarNaranjo/pi-agile-coach.git"
   },
-  "homepage": "https://github.com/EdgarNaranjo/agent-skills#readme",
+  "homepage": "https://github.com/EdgarNaranjo/pi-agile-coach#readme",
   "files": [
     "SKILL.md",
     "references/",
@@ -38,8 +38,8 @@
     "skills": [
       "."
     ],
-    "image": "https://raw.githubusercontent.com/EdgarNaranjo/agent-skills/main/assets/agile-coach-preview.png",
-    "previewHtml": "https://raw.githubusercontent.com/EdgarNaranjo/agent-skills/main/assets/agile-coach-preview.html",
-    "changelog": "https://github.com/EdgarNaranjo/agent-skills/blob/HEAD/CHANGELOG.md"
+    "image": "https://raw.githubusercontent.com/EdgarNaranjo/pi-agile-coach/main/assets/agile-coach-preview.png",
+    "previewHtml": "https://raw.githubusercontent.com/EdgarNaranjo/pi-agile-coach/main/assets/preview.html",
+    "changelog": "https://github.com/EdgarNaranjo/pi-agile-coach/blob/HEAD/CHANGELOG.md"
   }
 }
