@@ -138,3 +138,12 @@ The coach never overwhelms. Built-in rules enforce:
 ## License
 
 LGPL-3.0-or-later — see [LICENSE](LICENSE)
+
+---
+
+## Links
+
+- **npm**: [pi-agile-coach](https://www.npmjs.com/package/pi-agile-coach)
+- **GitHub**: [EdgarNaranjo/pi-agile-coach](https://github.com/EdgarNaranjo/pi-agile-coach)
+- **pi.dev**: [pi-agile-coach](https://pi.dev/packages/pi-agile-coach)
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
