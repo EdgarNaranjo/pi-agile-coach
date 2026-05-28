@@ -1,6 +1,6 @@
 {
   "name": "pi-agile-coach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal agile coach for pi and Claude Code — structures any project (software, design, hardware, marketing, operations) into sprints with full SDD cycle: backlog, sprint planning, verification, retro, and decision memory. Integrates with any skill.",
   "keywords": [
     "pi-package",

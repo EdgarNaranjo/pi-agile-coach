@@ -6,6 +6,15 @@ Format: [Semantic Versioning](https://semver.org) — `MAJOR.MINOR.PATCH`
 
 ---
 
+## [1.0.1] — 2026-05-28
+
+### Fixed
+- README: correct image URL, install commands, and skill references (were pointing to `agent-skills` repo)
+- README: add Links section (npm, GitHub, pi.dev, Changelog)
+- CHANGELOG: `workflow-odoo19` → `workflow-odoo`
+
+---
+
 ## [1.0.0] — 2026-05-28
 
 ### Added
