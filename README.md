@@ -2,7 +2,7 @@
 
 > Universal agile coach for [pi coding agent](https://pi.dev) and Claude Code — structures any project into sprints, guides teams through the full delivery cycle, and adapts to any technology or project type.
 
-![pi-agile-coach preview](https://raw.githubusercontent.com/EdgarNaranjo/agent-skills/main/assets/agile-coach-preview.png)
+![pi-agile-coach preview](https://raw.githubusercontent.com/EdgarNaranjo/pi-agile-coach/main/assets/agile-coach-preview.png)
 
 ## What it does
 
@@ -15,7 +15,7 @@ Loaded automatically when you need to organize a project. Works for **any projec
 - **Propose the right depth** — Lite (1-2 people, short projects), Standard (2-5 people), or Full (5+ people, complex projects)
 - **Guide through structured phases** — Init → Explore → Proposal → Spec → Design → Tasks → Apply → Verify → Archive
 - **Generate all project artifacts** — backlog, sprint planning, risk register, burndown, retro, engram memory
-- **Integrate with any skill** — works alone or alongside Superpowers, workflow-odoo19, code-review-excellence, or any custom skill
+- **Integrate with any skill** — works alone or alongside Superpowers, workflow-odoo, code-review-excellence, or any custom skill
 
 ### 📋 Phase System
 
@@ -36,7 +36,7 @@ When the project is software, the coach decomposes user stories into layer-speci
 
 | Stack | Tasks generated |
 |-------|----------------|
-| **Odoo** | Model, View (form/list/kanban), Wizard, Report, Cron, Security — delegates to `workflow-odoo19` |
+| **Odoo** | Model, View (form/list/kanban), Wizard, Report, Cron, Security — delegates to `workflow-odoo` |
 | **Spring Boot** | Entity, Repository, Service, Controller, DTO, Unit Test, Integration Test |
 | **Angular** | Module, Component (smart/presentational), Service, Guard, Pipe, Spec |
 | **React/Next.js** | Component, Hook, Context, API Route, Store, Test (RTL/Vitest) |
@@ -76,7 +76,7 @@ The coach is a generic orchestrator — it never depends on external skills but 
 | Brainstorming | `superpowers:brainstorming` | A/B/C proposals inline |
 | Implementation plan | `superpowers:writing-plans` | Detailed `planning.md` |
 | Execution with sub-agents | `superpowers:subagent-driven-development` | Sequential guided execution |
-| Odoo development | `workflow-odoo19` | Generic task decomposition |
+| Odoo development | `workflow-odoo` | Generic task decomposition |
 | Code review | `code-review-excellence` | Structured review checklist |
 | Verification | `superpowers:verification-before-completion` | Evidence checklist (H-VERIFY) |
 
@@ -84,16 +84,16 @@ The coach is a generic orchestrator — it never depends on external skills but 
 
 ```bash
 # With npx (recommended — works with pi and Claude Code)
-npx skills add EdgarNaranjo/agent-skills@agile-coach -g -y
+npx skills add EdgarNaranjo/pi-agile-coach -g -y
 
 # With pi from npm
 pi install npm:pi-agile-coach
 
 # With pi from GitHub
-pi install git:github.com/EdgarNaranjo/agent-skills@agile-coach
+pi install git:github.com/EdgarNaranjo/pi-agile-coach
 
 # Try without installing
-pi -e git:github.com/EdgarNaranjo/agent-skills@agile-coach
+pi -e git:github.com/EdgarNaranjo/pi-agile-coach
 ```
 
 ## What makes this different
@@ -121,7 +121,7 @@ The coach never overwhelms. Built-in rules enforce:
 
 - [`pi-odoo-workflow`](https://www.npmjs.com/package/pi-odoo-workflow) — Odoo 18/19 technical tasks
 - [`superpowers-extended-cc`](https://github.com/badlogic/pi-superpowers) — execution engine with sub-agents, TDD, and verification
-- [`code-review-excellence`](https://github.com/EdgarNaranjo/agent-skills) — structured code reviews
+- [`code-review-excellence`](https://github.com/weiping/pi-superpowers) — structured code reviews
 
 ## References included
 
